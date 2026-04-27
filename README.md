@@ -117,4 +117,4 @@ screenshots/
 
 ## Author
 
-SweetCart Automation Project
+Katakamsetty Lakshmi Manasa
