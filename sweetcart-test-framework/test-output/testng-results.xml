@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-27T20:12:17 IST" name="SweetCart Suite" finished-at="2026-04-27T20:14:17 IST" duration-ms="119985">
+    <groups>
+    </groups>
+    <test started-at="2026-04-27T20:12:17 IST" name="Regression" finished-at="2026-04-27T20:14:17 IST" duration-ms="119985">
+      <class name="com.sweetcart.tests.NavigationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sweetcart.tests.NavigationTest@21d03963]" started-at="2026-04-27T20:13:22 IST" name="setup" finished-at="2026-04-27T20:13:29 IST" duration-ms="7108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationModule()[pri:0, instance:com.sweetcart.tests.NavigationTest@21d03963]" started-at="2026-04-27T20:13:29 IST" name="testNavigationModule" finished-at="2026-04-27T20:13:30 IST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationModule -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sweetcart.tests.NavigationTest@21d03963]" started-at="2026-04-27T20:13:30 IST" name="tearDown" finished-at="2026-04-27T20:13:30 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sweetcart.tests.NavigationTest -->
+      <class name="com.sweetcart.tests.BasketTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sweetcart.tests.BasketTest@18ece7f4]" started-at="2026-04-27T20:13:41 IST" name="setup" finished-at="2026-04-27T20:13:49 IST" duration-ms="7675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testBasketFlow()[pri:0, instance:com.sweetcart.tests.BasketTest@18ece7f4]" started-at="2026-04-27T20:13:49 IST" name="testBasketFlow" finished-at="2026-04-27T20:14:03 IST" duration-ms="14580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasketFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sweetcart.tests.BasketTest@18ece7f4]" started-at="2026-04-27T20:14:03 IST" name="tearDown" finished-at="2026-04-27T20:14:04 IST" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sweetcart.tests.BasketTest -->
+      <class name="com.sweetcart.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:12:17 IST" name="setup" finished-at="2026-04-27T20:12:34 IST" duration-ms="17111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:12:34 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-27T20:12:37 IST" duration-ms="3141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[oneorder@sweetshop.local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:12:37 IST" name="tearDown" finished-at="2026-04-27T20:12:37 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:12:37 IST" name="setup" finished-at="2026-04-27T20:12:44 IST" duration-ms="6551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:12:44 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-27T20:12:54 IST" duration-ms="9683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[twoorders@sweetshop.local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:12:54 IST" name="tearDown" finished-at="2026-04-27T20:12:54 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:12:54 IST" name="setup" finished-at="2026-04-27T20:13:06 IST" duration-ms="11588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:13:06 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-27T20:13:08 IST" duration-ms="2155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fiveorders@sweetshop.local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:13:08 IST" name="tearDown" finished-at="2026-04-27T20:13:09 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:13:09 IST" name="setup" finished-at="2026-04-27T20:13:19 IST" duration-ms="10168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:13:19 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-27T20:13:21 IST" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongemail@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sweetcart.tests.LoginTest@50f6ac94]" started-at="2026-04-27T20:13:21 IST" name="tearDown" finished-at="2026-04-27T20:13:22 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sweetcart.tests.LoginTest -->
+      <class name="com.sweetcart.tests.ProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sweetcart.tests.ProductTest@1f760b47]" started-at="2026-04-27T20:13:30 IST" name="setup" finished-at="2026-04-27T20:13:38 IST" duration-ms="7178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testProductModule()[pri:0, instance:com.sweetcart.tests.ProductTest@1f760b47]" started-at="2026-04-27T20:13:38 IST" name="testProductModule" finished-at="2026-04-27T20:13:41 IST" duration-ms="3283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductModule -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sweetcart.tests.ProductTest@1f760b47]" started-at="2026-04-27T20:13:41 IST" name="tearDown" finished-at="2026-04-27T20:13:41 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sweetcart.tests.ProductTest -->
+      <class name="com.sweetcart.tests.AccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sweetcart.tests.AccountTest@3cce57c7]" started-at="2026-04-27T20:14:04 IST" name="setup" finished-at="2026-04-27T20:14:14 IST" duration-ms="9203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAccountAndOrderHistory()[pri:0, instance:com.sweetcart.tests.AccountTest@3cce57c7]" started-at="2026-04-27T20:14:14 IST" name="testAccountAndOrderHistory" finished-at="2026-04-27T20:14:16 IST" duration-ms="2321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountAndOrderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sweetcart.tests.AccountTest@3cce57c7]" started-at="2026-04-27T20:14:16 IST" name="tearDown" finished-at="2026-04-27T20:14:17 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sweetcart.tests.AccountTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- SweetCart Suite -->
+</testng-results>
